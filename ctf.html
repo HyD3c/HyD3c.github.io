@@ -11,7 +11,7 @@ title: CTF
     {% if post.private == true %}
         {% continue %}
     {% endif %}
-    {% else if post.ctf == ctf %}
+    {% if post.ctf == ctf %}
     <div class="post-card">
         <a class="title" href="{{site.baseurl}}{{ post.url }}">
             {{ post.title }}
