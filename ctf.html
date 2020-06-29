@@ -8,6 +8,6 @@ title: CTF
     {{ctf}}
   </div>
   {% for p in site.ctfs %}
-      {{ p }}
+      {{ p.title | ctf }}
   {% endfor %}
 {% endfor %}
