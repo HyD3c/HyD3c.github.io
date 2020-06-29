@@ -20,5 +20,7 @@ sass:
 navbar:
  - name: "About"
    link: "about"
+ - name: "CTF"
+   link: "ctf"
  - name: "Resume"
    absolute-link: "https://pro-panda.github.io/resume.pdf"
