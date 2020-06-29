@@ -7,7 +7,7 @@
             {% if x.absolute-link %}
                 {% assign x-url = x.absolute-link %}
             {% else %}
-                {% assign x-url = site.url | append: site.baseurl | append: "/" | append: x.link %}
+                {% assign x-url = site.url | append: site.baseurl | append: x.link %}
             {% endif %}
             <a href="{{ x-url }}">{{ x.name }}</a>
             {% if forloop.last == false %}/{% endif %}
