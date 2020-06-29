@@ -7,4 +7,15 @@ title: CTF
   <div class="ctf-name">
     {{ctf}}
   </div>
+  {% for post in site.post %}
+                {% if post.ctf == ctf %}
+                    <div>
+                        <span class="ctf-time pull-right">
+                            <time>{{ post.date | date: '%B %d, %Y '}}</time>
+                        </span>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                            {{ post.title }}
+                        </a>
+                    </div>
+   {% endif %}
 {% endfor %}
