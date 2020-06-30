@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="page-subtitle">
-    <b>{{ page.date | date: "%d %B %Y" }}</b>
+    <b>{{ page.date | date: "%d %B %Y" }}</b><br>
     {% for tag in page.tags %}
         {% if page.tags.first == tag %}
             <b>[</b>
