@@ -5,6 +5,4 @@ ctf: HackCTF
 tag: [pwnable]
 layout: post
 ---
-<pre><blockquote>
-\<p>This is code block\</p>
-\<\/blockquote\>
+
