@@ -7,9 +7,10 @@ layout: post
 ---
 
 <span class="color-blue">HackCTF</span>의 첫 번째 <span class="color-blue">Pwnable</span> 문제로 <span class="color-blue">bof</span>를 이용한다.
-```javascript
-function syntaxHighlight(code) {
-   var foo = 'Hello World';
-   var bar = 100;
-}
-```
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
