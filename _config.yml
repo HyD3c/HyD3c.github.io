@@ -19,7 +19,9 @@ sass:
 collections:
     ctfs:
         output: "true"
-        
+
+highlighter: rouge
+
 navbar:
  - name: "About"
    link: "about"
