@@ -172,6 +172,8 @@
 }
 .highlight {
   color: #ffffff;
+  background-color: #272822;
+  border-radius:10px;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;
@@ -196,10 +198,7 @@
   color: #f92672;
 }
 .highlight > pre{
-  background-color: #272822;
   padding:1em;
-  border-radius:10px;
-  border: 1px solid #ffffff;
 }
 code{
   font-family: 'D2 coding';
