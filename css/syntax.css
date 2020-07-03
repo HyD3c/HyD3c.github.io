@@ -196,6 +196,6 @@
 .highlight .o {
   color: #f92672;
 }
-pre{
+.highlight > pre{
   padding:1em;
 }
