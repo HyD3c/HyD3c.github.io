@@ -27,5 +27,5 @@ navbar:
    link: "about"
  - name: "CTF"
    link: "ctf"
- - name: "Resume"
-   absolute-link: "https://pro-panda.github.io/resume.pdf"
+ - name: "Note"
+   link: "note"
