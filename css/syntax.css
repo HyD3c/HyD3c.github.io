@@ -196,9 +196,9 @@
   color: #f92672;
 }
 .highlight > pre{
+  background-color: #272822;
   padding:1em;
   border-radius:10px;
-  background-color: #272822;
   border: 1px solid #ffffff;
 }
 code{
