@@ -199,6 +199,6 @@
 .highlight > pre{
   padding:1em;
 }
-.highlight{
+code{
   font-family: 'D2 coding', "Consolas", monospace;
 }
