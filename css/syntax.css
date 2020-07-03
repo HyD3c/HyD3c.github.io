@@ -172,7 +172,6 @@
 }
 .highlight {
   color: #ffffff;
-  background-color: #272822;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;
@@ -199,6 +198,7 @@
 .highlight > pre{
   padding:1em;
   border-radius:10px;
+  background-color: #272822;
   border: 1px solid #ffffff;
 }
 code{
