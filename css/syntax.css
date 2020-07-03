@@ -198,9 +198,8 @@
 }
 .highlight > pre{
   padding:1em;
+  border: 1px solid #ffffff;
 }
 code{
-  padding: 1em;
-  border: 1px solid #ffffff;
   font-family: 'D2 coding', "Consolas", monospace;
 }
