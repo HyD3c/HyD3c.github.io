@@ -1,6 +1,6 @@
 ---
-title: "[HackCtf] Basic_BOF#1"
-date: 2020-06-29
+title: "[HackCtf] x64 Buffer Overflow"
+date: 2020-07-09
 ctf: HackCTF
 tag: [pwnable]
 layout: post
