@@ -297,3 +297,6 @@ table tr th :last-child, table tr td :last-child {
 code{
 	background-color: inherit;
 }
+.highlight>pre{
+	overflow: scroll;
+}
