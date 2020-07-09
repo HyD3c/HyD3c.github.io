@@ -1,5 +1,5 @@
 ---
-title: "[HackCtf] x64 Simple_size_BOF"
+title: "[HackCTF] x64 Simple_size_BOF"
 date: 2020-07-09
 ctf: HackCTF
 tag: [pwnable]
