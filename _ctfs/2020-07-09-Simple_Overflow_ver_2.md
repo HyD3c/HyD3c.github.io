@@ -1,5 +1,5 @@
 ---
-title: "[HackCtf] Simple_Overflow_ver_2"
+title: "[HackCTF] Simple_Overflow_ver_2"
 date: 2020-07-09
 ctf: HackCTF
 tag: [pwnable]
