@@ -199,6 +199,7 @@
 }
 .highlight > pre{
   padding:1em;
+  overflow: auto;
 }
 code{
   font-family: 'D2 coding';
