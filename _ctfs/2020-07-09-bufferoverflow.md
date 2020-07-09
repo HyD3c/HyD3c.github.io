@@ -1,5 +1,5 @@
 ---
-title: "[HackCtf] 내 버퍼가 흘러넘친다!!!"
+title: "[HackCTF] 내 버퍼가 흘러넘친다!!!"
 date: 2020-07-09
 ctf: HackCTF
 tag: [pwnable]
