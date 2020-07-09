@@ -1,5 +1,5 @@
 ---
-title: "[HackCtf] x64 Buffer Overflow"
+title: "[HackCTF] x64 Buffer Overflow"
 date: 2020-07-09
 ctf: HackCTF
 tag: [pwnable]
