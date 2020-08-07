@@ -1,4 +1,29 @@
 ---
 layout: default
+title: NOTE
 ---
-aaaaaa
+{% for note in site.data.note %}
+  <div class="note-name">
+    {{note}}
+  </div>
+  {% for post in site.note %}
+    {% if post.private == true %}
+        {% continue %}
+    {% endif %}
+    {% if post.part == note %}
+    <div class="post-card">
+        <a class="title" href="{{site.baseurl}}{{ post.url }}">
+            {{ post.title }}
+        </a>
+
+        <div class="details">
+            <b>{{ post.date | date: "%d %B %Y" }}</b>
+            
+        </div>
+    </div>
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
