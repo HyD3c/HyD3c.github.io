@@ -19,6 +19,8 @@ sass:
 collections:
     ctfs:
         output: "true"
+    note:
+        output: "true"
 
 highlighter: rouge
 
